@@ -1,19 +1,8 @@
-.storyReel{
+.storyReel {
+    margin-top: 30px;
     display: flex;
-     width: 100%;
-    overflow: scroll;
-  }
-  /* Hide scrollbar for chrome, Safari and Opera */
-  .storyReel::-webkit-scrollbar{
-    display: none;
-  
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .storyReel{
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-  .storyReel__story{
-    margin-right: 10px;
-  }
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
