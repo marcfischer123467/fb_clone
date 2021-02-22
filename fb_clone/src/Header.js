@@ -43,7 +43,24 @@ function Header() {
         </div> 
 
 
-        <div className="header__right"> </div>  
+        <div className="header__right">
+        <div className="header__info">
+            <Avatar />
+            <h4> marc </h4>
+        </div>
+        <IconButton>
+            <AddIcon />
+        </IconButton>
+        <IconButton>
+            <ForumIcon />
+        </IconButton>
+        <IconButton>
+            <NotificationsActiveIcon />
+        </IconButton>
+        <IconButton>
+            <ExpandMoreIcon />
+        </IconButton>
+         </div>  
         </div>
     )
 }
