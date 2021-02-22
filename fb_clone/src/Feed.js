@@ -15,7 +15,7 @@ function Feed() {
         message= "Learning React and Firebase rn."
         timestamp= "late"
         username = 'Marc'
-        image=""
+        image="https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg"
         />
          <Post />
          <Post />
