@@ -19,12 +19,13 @@ function Header() {
             <div className="header__left">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/214px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook Logo" 
                 />
-                <div className="header__input"> </div>
-                <SearchIcon />
-                <input type="text" /> 
+                <div className="header__input">
+                    <SearchIcon />
+                    <input type="text" placeholder="Search Facebook" />
+                </div>
                
             </div>
-        <div className="header__middle"> 
+        <div className="header__center"> 
             <div className="header__option">
                 <HomeIcon fontsize="large"/>
             </div> 
