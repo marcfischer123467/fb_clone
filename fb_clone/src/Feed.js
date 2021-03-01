@@ -6,7 +6,7 @@ import Post from './Post'
 
 function Feed() {
     return (
-        <div classname='feed'>
+        <div classname='Feed'>
             
         <StoryReel />
         <MessageSender />
