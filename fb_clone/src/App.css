@@ -4,8 +4,11 @@
 }
 
 .app__body {
+  width: 100%;
   padding: 20px 10px;
-    display: flex;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
     
 
 }
