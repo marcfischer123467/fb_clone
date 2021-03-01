@@ -10,13 +10,8 @@ function App() {
     <div className="app">
       <Header />
           <div className="app__body">
-          <div className="Sidebar">
-          <Sidebar />
-          </div>
-          <div className="Feed">
-          <Feed />   
-          </div>  
-           
+            <Sidebar />
+            <Feed />
           {/* Sidebar */}
           {/* Feed */}
           {/* Widgets */}

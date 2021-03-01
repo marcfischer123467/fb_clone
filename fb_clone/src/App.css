@@ -4,23 +4,9 @@
 }
 
 .app__body {
-  /*width: 100%;*/
   padding: 20px 10px;
-  display: flex;
-  flex-direction: row;  /* make main axis vertical */
-  justify-content: space-between; /* center items vertically, in this case */
-  
+    display: flex;
+    
 
 }
-.Feed {
-  display: flex;
-    flex: 1;
-    justify-content: center;  
 
-}
-.Sidebar {
-  display: flex;
-  flex: 1;
-   
-
-}
